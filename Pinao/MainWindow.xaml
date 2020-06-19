@@ -1,0 +1,71 @@
+﻿<Window x:Class="Pinao.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pinao"
+        mc:Ignorable="d"
+        Title="Easy_Piano" Height="450" Width="800" KeyDown="Window_KeyDown" KeyUp="Window_KeyUp" Icon="icon.PNG">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" ></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TabPanel  >
+            <Button x:Name="key_1_Low" Height="450" FontSize="100" Background="LightGray" >1</Button>
+        </TabPanel>
+        <TabPanel Grid.Column="1" >
+            <Button x:Name="key_2_Low" Height="450" FontSize="100" Background="LightGray"  >2</Button>
+        </TabPanel>
+        <TabPanel Grid.Column="2" >
+            <Button x:Name="key_3_Low" Height="450" FontSize="100" Background="LightGray"  >3</Button>
+        </TabPanel>
+        <TabPanel Grid.Column="3" >
+            <Button x:Name="key_4_Low" Height="450" FontSize="100" Background="LightGray"  >4</Button>
+        </TabPanel>
+        <TabPanel Grid.Column="4" >
+            <Button x:Name="key_5_Low" Height="450" FontSize="100" Background="LightGray" >5</Button>
+        </TabPanel>
+        <TabPanel Grid.Column="5" >
+            <Button  x:Name="key_6_Low" Height="450" FontSize="100" Background="LightGray" >6</Button>
+        </TabPanel>
+        <TabPanel Grid.Column="6" >
+            <Button x:Name="key_7_Low" Height="450" FontSize="100" Background="LightGray"  >7</Button>
+        </TabPanel>
+        <TabPanel Grid.Column="7" >
+            <Button x:Name="key_1_High" Height="450" FontSize="100" Background="White"  >1</Button>
+        </TabPanel>
+        <TabPanel Grid.Column="8" >
+            <Button x:Name="key_2_High" Height="450" FontSize="100" Background="White"  >2</Button>
+        </TabPanel>
+        <TabPanel Grid.Column="9" >
+            <Button x:Name="key_3_High" Height="450" FontSize="100" Background="White" >3</Button>
+        </TabPanel>
+        <TabPanel Grid.Column="10" >
+            <Button x:Name="key_4_High" Height="450" FontSize="100" Background="White"  >4</Button>
+        </TabPanel>
+        <TabPanel Grid.Column="11" >
+            <Button x:Name="key_5_High" Height="450" FontSize="100" Background="White" >5</Button>
+        </TabPanel>
+        <TabPanel Grid.Column="12" >
+            <Button x:Name="key_6_High" Height="450" FontSize="100" Background="White"  >6</Button>
+        </TabPanel>
+        <TabPanel Grid.Column="13" >
+            <Button x:Name="key_7_High" Background="White" Height="450" FontSize="100" >7</Button>
+        </TabPanel>
+
+
+    </Grid>
+</Window>
